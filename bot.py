@@ -3,7 +3,7 @@ import asyncio
 from discord.ext import commands
 
 token = "bot token" # Bot Token
-intents = discord.Intents().all() # Discord Intents (Can be Activated at Discord Developer)
+intents = discord.Intents.all() # Discord Intents (Can be Activated at Discord Developer)
 bot = commands.Bot(command_prefix='>', intents=intents)
 
 # / Status Part # \
